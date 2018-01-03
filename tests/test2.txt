@@ -1,0 +1,18 @@
+.text1
+add 5 6 9
+sub 2 6 8
+.extern c
+.text2
+jmp [c]
+.text3
+.skip 5
+g:
+.data1
+.skip 1
+.align 6
+d:
+.data2
+.word 55
+.bss1
+.char 5
+.bss2

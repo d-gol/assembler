@@ -1,0 +1,15 @@
+.text
+mov 5 6
+int 3
+shr 5 6 7
+jmp 500
+jmp [500]
+ldch 5 9
+.long b
+.data
+.skip 5
+b:
+.end
+sdsdadassad
+sadsaddsad
+asdsdsadasd

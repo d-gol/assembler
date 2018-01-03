@@ -1,0 +1,18 @@
+.text
+jmp a
+jmp c
+je 6 e
+add 5 4 3
+a:
+ldc 5 b
+.data
+.skip 5
+b: .long b
+.long c
+.bss
+.skip 17
+c:
+.global c
+.global d
+e:
+.end

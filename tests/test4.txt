@@ -1,0 +1,7 @@
+.text
+.long b
+.skip 5
+.data
+.long 5
+.end
+
