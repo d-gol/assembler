@@ -1,7 +1,7 @@
 # One Pass Assembler
 
 ## What is it about? ##
-The project is an implementation of an one pass assembler. The goal is read the input assembly file, check for errors and provide linker with results. The results are the table of symbols, relocation records, and data and text sections.
+The project is an implementation of an one pass assembler for a processor with a specified design. The design includes information about the format of the instructions and addressing modes. The goal is read the input assembly file, check for errors and provide linker with results. The results are the table of symbols, relocation records, and data and text sections.
 
 The source code of an input assembly file is read only once, during parsing. Processing the symbols that were referenced before they have been defined was solved by using backpatching. That is, for every symbol, the information was saved about where has it been referenced. Then, after the reading of the entire input file, the assembler goes through the list of such symbols and updates information about them.
 
